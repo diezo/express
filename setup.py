@@ -5,10 +5,10 @@ version = "1.0.0b1"
 long_description = (Path(__file__).parent / "README.md").read_text(encoding="utf-8")
 
 setup(
-    name="express",
+    name="onetap",
     python_requires=">=3.10",
     packages=[
-        "express"
+        "onetap"
     ],
     version=version,
     license="MIT",
@@ -18,10 +18,10 @@ setup(
     author="Deepak Soni",
     author_email="deepaksonii@outlook.in",
     url="https://github.com/diezo/express",
-    download_url=f"https://github.com/diezo/express/archive/refs/tags/v{version}.tar.gz",
+    download_url=f"https://github.com/diezo/onetap/archive/refs/tags/v{version}.tar.gz",
     keywords=[
-        "express",
-        "express-python"
+        "onetap",
+        "onetap-python"
     ],
     install_requires=[],
     classifiers=[
